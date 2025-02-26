@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desa Pocolikang</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #2E8B57; color: white; padding: 15px; text-align: center; }
+        nav { background: #3CB371; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; }
+        footer { background: #2E8B57; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Desa Pocolikang</h1>
+    </header>
+    <nav>
+        <a href="#informasi">Informasi Umum</a>
+        <a href="#profil">Profil Pemerintahan</a>
+        <a href="#berita">Berita</a>
+        <a href="#layanan">Layanan Masyarakat</a>
+        <a href="#polling">Polling Kepuasan</a>
+    </nav>
+    <section id="informasi">
+        <h2>Informasi Umum Desa</h2>
+        <p>Desa Pocolikang adalah desa yang memiliki sejarah panjang dengan potensi pertanian dan pariwisata yang menjanjikan.</p>
+    </section>
+    <section id="profil">
+        <h2>Profil Pemerintahan Desa</h2>
+        <p>Kepala Desa: [Nama Kepala Desa]</p>
+        <p>Perangkat Desa: [Daftar Perangkat]</p>
+    </section>
+    <section id="berita">
+        <h2>Berita & Pengumuman</h2>
+        <p>Belum ada berita terbaru.</p>
+    </section>
+    <section id="layanan">
+        <h2>Layanan Masyarakat</h2>
+        <p>Informasi mengenai layanan desa dapat diakses di sini.</p>
+    </section>
+    <section id="polling">
+        <h2>Polling Kepuasan Masyarakat</h2>
+        <p>Silakan berikan penilaian Anda terhadap kinerja kepala desa saat ini:</p>
+        <form>
+            <label><input type="radio" name="kepuasan" value="sangat_puas"> Sangat Puas</label><br>
+            <label><input type="radio" name="kepuasan" value="puas"> Puas</label><br>
+            <label><input type="radio" name="kepuasan" value="cukup_puas"> Cukup Puas</label><br>
+            <label><input type="radio" name="kepuasan" value="tidak_puas"> Tidak Puas</label><br>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Desa Pocolikang</p>
+    </footer>
+</body>
+</html>
